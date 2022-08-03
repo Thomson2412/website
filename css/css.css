@@ -1,0 +1,86 @@
+/* General */
+:root {
+    --primary: #bdbdbd;
+    --p_dark: #8d8d8d;
+    --p_light: #efefef;
+
+    --secondary: #9fa8da;
+    --s_dark: #6f79a8;
+    --s_light: #d1d9ff;
+}
+
+body{
+    background-color: var(--primary);
+    color: #424242;
+    font-family: Lexend Deca, sans-serif;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.2em;
+}
+
+button:enabled{
+    color: #242424;
+}
+
+button:enabled:hover{
+    background-color: var(--s_dark);
+    cursor: pointer;
+}
+
+.mainTitle{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px
+}
+
+.mainContainer{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    text-align: center;
+    min-width: 800px;
+}
+
+.menuContainer{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    background-color: var(--p_light);
+    border-radius: 15px;
+}
+
+.menuContainer button{
+    width: 150px;
+}
+
+.contentContainer{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    background-color: var(--p_light);
+    border-radius: 15px;
+}
+
+.contentText{
+    max-width: 50%;
+    display: inline-block;
+    padding: 2em;
+}
+
+.contentText h1{
+    text-decoration: underline;
+}
+
+.animationVideo{
+    padding: 2em;
+}
+
+.homePicture{
+    width: 25%;
+}

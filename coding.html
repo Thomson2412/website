@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Soloheisbeer</title>
+    <link rel="stylesheet" type="text/css" href="/css/css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend Deca">
+    <!--favicon from https://iconos8.es/icon/RyzGypFMo2ly/van-gogh-->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+</head>
+<div class="mainTitle" id="mainTitle">Soloheisbeer</div>
+<div class="mainContainer" id="mainContainer">
+    <div class="menuContainer" id="menuContainer">
+        <a href="index.html"><button>Home</button></a>
+        <a href="coding.html"><button>Coding</button></a>
+        <a href="music.html"><button>Music</button></a>
+        <a href="animation.html"><button>Animation</button></a>
+        <a href="study.html"><button>Study</button></a>
+        <a href="repair.html"><button>Repair</button></a>
+    </div>
+    <div class="contentContainer" id="contentContainer">
+        <div class="contentText">
+            Our TV is connected to our receiver with an optical cable.
+            <br>
+            Unfortunately someone decided that changing the volume doesn't affect the device connected via optical.
+            <br>
+            Therefore I decided to create an application that can capture the volume change on our Android TV.
+            <br>
+            This volume change is than relayed via HTTP to an ESP8622.
+            <br>
+            The ESP has an IR led connected which will send the volume change to the receiver.
+            <br>
+            Besides the volume the application also checks if the TV is on or off and turns the receiver on/off as needed.
+            <br>
+            Code can be found here: <a href="https://github.com/Thomson2412/IRTranslator">IRTranslator</a>
+        </div>
+        <br>
+        <div class="contentText">
+            The microwave power button and timer combination failed.
+            <br>
+            Instead of trowing it away I decided to make it smart.
+            <br>
+            By putting in a Raspberry Pi zero w and make it host a server/webserver to control a relay, the Microwave was alive again!
+            <br>
+            I also created a native Android app, because why not.
+            <br>
+            By accident the Microwave is now also controllable by the TV.
+            <br>
+            Code can be found here: <a href="https://github.com/Thomson2412/microwaffle_hardware">Hardware</a> and <a href="https://github.com/Thomson2412/microwaffle_app_android">App</a>
+        </div>
+        <br>
+        <div class="contentText">
+            More to come. See you later!
+        </div>
+        <div>
+            <img class="homePicture" src="img/fishguy.png">
+        </div>
+    </div>
+</div>
